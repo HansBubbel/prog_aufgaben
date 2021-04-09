@@ -12,7 +12,7 @@ int zahl_raten();
 int main() {
 
     srand(time(0));
-    const int gesuchte_zahl = (rand() % (BEREICHS_ENDE - BEREICHS_ANFANG + 1)) + BEREICHSANFANG;
+    const int gesuchte_zahl = (rand() % (BEREICHS_ENDE - BEREICHS_ANFANG + 1)) + BEREICHS_ANFANG;
 
 	printf("Das Program soll eine Zahl zwischen ");
 	printf("%d und %d raten. \n", BEREICHS_ANFANG, BEREICHS_ENDE);
